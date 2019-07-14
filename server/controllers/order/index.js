@@ -1,0 +1,23 @@
+module.exports = {
+    postOrder: require('./order-post'),
+    getOrder: require('./order-get'),
+    deleteOrder: require('./order-delete'),
+    putOrder: require('./order-put'),
+    putOrderAcceptCancel: require('./order-accept-cancel-put'),
+    putOrderAcceptLocationChange: require('./order-accept-location-change-put'),
+    putOrderAcceptScheduleChange: require('./order-accept-schedule-change-put'),
+    putOrderAcceptance: require('./order-acceptance-put'),
+    putOrderComplete: require('./order-complete-put'),
+    putOrderSellerDeliveredMedia: require('./order-seller-delivered-media-put'),
+    putOrderLocationChange: require('./order-location-change-put'),
+    putOrderScheduleChange: require('./order-schedule-change-put'),
+    putOrderRequestCancel: require('./order-request-cancel-put'),
+    putOrderStartService: require('./order-start-service-put'),
+    getOrdersSell: require('./order-sell-get'),
+    getOrdersBuy: require('./order-buy-get'),
+    getOrdersForChat: require('./orders-for-chat-get'),
+    getTransactionHistory: require('./transaction-history-get'),
+    getOrderTax: require('./order-tax-get'),
+    getOrderTransactionFee: require('./order-transaction-fee-get'),
+    postCheckoutFees: require('./checkout-fees-post')
+};
